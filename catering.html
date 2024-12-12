@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catering</title>
+    <!-- CSS-->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/catering-style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <!-- External Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/kbg3ore.css">
+    <!-- JS -->
+    <!-- Icons Plugin-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/css/ionicons.min.css">
+    <!-- JustValidate Plugin -->
+    <script src="https://unpkg.com/just-validate@4.2.0/dist/just-validate.production.min.js"></script>
+    <!-- Flickity Plugin -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.3.0/flickity.min.css">
+</head>
+<body>
+    <!-- NAV BAR -->
+    <header class="site-header">
+        <div class="site-header__wrapper">
+            <!-- logo image -->
+            <div class="site-header__logo">
+                <a href="index.html">
+                <img src="img/logo.png" alt="lunch-lady-logo">
+                </a>
+            </div>
+            <!-- nav menu items -->
+            <nav class="site-header__navmenu">
+                <ul>
+                    <li><a href="shop.html">SHOP</a></li>
+                    <li><a href="catering.html">CATERING</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <div class="hero-section__wrapper">
+        <section class="hero-banner">
+            <div class="hero-banner__title">
+                <h2>Our Catering Service</h2>
+            </div>
+                <div class="hero-banner__slider">
+                    <div class="hero-banner__subtitle">
+                        <h3>We invite you to place your catering order with us today!</h3>
+                    </div>
+                </div>
+        </section>
+    
+        <!-- FLICKITY SLIDER -->
+        <div class="image-slider">
+            <div class="slider-image">
+                <img src="img/catering/catering-1.jpg" alt="steak-and-dish">
+            </div>
+            <div class="slider-image">
+                <img src="img/catering/catering-2.jpg" alt="deep-fry-with-wrap">
+            </div>
+            <div class="slider-image">
+                <img src="img/catering/catering-3.jpg" alt="cocktail">
+            </div>
+            <div class="slider-image">
+                <img src="img/catering/catering-4.jpg" alt="various-of-food">
+            </div>
+            <div class="slider-image">
+                <img src="img/catering/catering-5.jpg" alt="more-various-of-food">
+            </div>
+            <div class="slider-image">
+                <img src="img/catering/catering-6.jpg" alt="beef-pho">
+            </div>
+        </div>
+    </div>
+
+    <!-- FORM -->
+    <div class="form-container">
+        <form id="catering-form" class="catering-form">
+            <div class="catering-form__group1">
+                <div class="form-group__first-row">
+                    <div class="form-field">
+                        <label for="Name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="form-field" id="form_email">
+                        <label for="E-mail">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="Your E-mail" required>
+                    </div>
+                </div>
+                    <div class="form-field">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+                    </div>
+            </div>
+            <div class="form-group">
+                <label for="date">Event Date</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="details">Event Details</label>
+                <textarea id="details" name="details" rows="3" placeholder="Details about your event" required></textarea>
+            </div>
+            <!-- button -->
+            <button type="submit" class="btn-submit">Submit Request</button>
+        </form>
+    </div>
+
+
+     <!-- FOOTER -->
+     <footer class="footer-section">
+        <!-- title -->
+        <div class="footer-section__title">
+            <span class="footer-section__title1">LET'S TALK</span>
+            <span class="footer-section__title2">WITH US</span>
+        </div>
+        <!-- information -->
+        <div class="footer-section__info">
+            <!-- contact section -->
+            <div class="footer-section__infoContact">
+                <p>Tel. 604-559-5938</p>
+                <p>info@thelunchlady.com</p>
+            </div>
+            <!-- address section -->
+            <div class="footer-section__infoAddress">
+                <p>1046 Commercial Drive Vancouver, B.C. CANADA</p>
+            </div>
+        </div>
+        <!-- socials -->
+        <div class="footer-section__socials">
+            <ion-icon name="logo-instagram"></ion-icon>
+            <ion-icon name="logo-facebook"></ion-icon>
+        </div>
+        <!-- bottom -->
+        <hr>
+        <div class="footer-section__bottom">
+            <div class="footer-section__copyright">
+                <p>Copyright © 2024 . Zoey Huang reserved</p>
+            </div>
+            <div class="footer-section__logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="lunch-lady-logo">
+                </a>
+            </div>
+            <div class="footer-section__navbar">
+                <ul>
+                    <li><a href="shop.html">SHOP</a></li>
+                    <li><a href="catering.html">CATERING</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <!-- Ionicons JS -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- FLickity JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.3.0/flickity.pkgd.min.js"></script>
+    <!-- Form Validation JS -->
+    <script src="js/catering.js"></script>
+</body>
+</html>
